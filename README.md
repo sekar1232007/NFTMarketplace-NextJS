@@ -1,15 +1,10 @@
-# Sample Hardhat Project
+#Run NPM install to install all dependencies
+npm install
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-Deploy to Mumbai testnet
+#The compiled contract is stored on /contracts folder
+#deploy the contract to polygon mumbai test network using the 
+#following command
 npx hardhat run scripts/deploy.js --network mumbai
-```
+
+#npm run dev to execute the application
+npm run dev
